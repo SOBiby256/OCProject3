@@ -1,0 +1,117 @@
+.fa-arrow-left {
+  position: absolute;
+  margin: 5px 0 0 20px;
+}
+
+.logo {
+  width: 150px;
+  margin: 0 0 0 120px;
+}
+
+.feature__showcase {
+  width: 450px;
+  margin: 0 0 0 -5px;
+}
+
+.menu {
+  position: absolute;
+  margin: -50px 0 0 -5px;
+  width: 450px;
+  height: 1200px;
+  background-color: #E1E1DD;
+  border-radius: 25px 25px 0 0;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: 1000;
+  margin: 0 0 0 20px;
+}
+
+.favorite {
+  position: absolute;
+  margin: -50px 0 0 350px;
+}
+
+.meal {
+  text-decoration: underline 3px #99E2D0;
+}
+
+.meal__dish {
+  width: 380px;
+  height: 70px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 black;
+  transition: 0.3s;
+  border-radius: 25px 25px 25px 25px;
+  margin: 15px 0 0 15px;
+  line-height: 70px;
+  line-width: 380px;
+}
+
+.meal__name {
+  position: relative;
+  top: -5px;
+  margin: 0px 0 0 5px;
+  line-width: 380px;
+  line-height: 70px;
+  text-decoration: underline 3px white;
+}
+
+.meal__add {
+  line-width: 380px;
+  margin: -60px 0 0 10px;
+  text-decoration: underline 3px white;
+}
+
+.meal__price {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  margin: -80px 0 0 340px;
+  text-decoration: underline 3px white;
+}
+
+.meal__btn {
+  position: absolute;
+  top: 580px;
+  left: 320px;
+  height: 70px;
+  width: 80px;
+  background-color: #99E2D0;
+  border-radius: 0 25px 25px 0;
+}
+
+.order {
+  color: white;
+  background-color: #FF79DA;
+  height: 50px;
+  width: 200px;
+  margin: 45px 0 0 100px;
+  border: transparent;
+  border-radius: 25px 25px 25px 25px;
+  box-shadow: 0px 5px 5px #898985;
+}
+
+.smlogo {
+  height: 20px;
+  margin: 35px 0 0 25px;
+  filter: brightness(3000%)
+}
+
+ul {
+  margin: -10px 0 0 -15px;
+}
+
+li {
+  list-style-type: none;
+}
+
+footer {
+  position: relative;
+  margin: 1100px 0 0 -5px;
+  width: 450px;
+  height: 170px;
+  color: white;
+  background-color: #383835;
+}

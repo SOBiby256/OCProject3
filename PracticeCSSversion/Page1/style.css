@@ -1,0 +1,71 @@
+#location {
+    background-color: #c4c4c4;
+    text-align: center;
+    height: 30px;
+}
+
+.booking {
+    background-color: #ded9d9;
+    text-align: center;
+    height: 250px;
+}
+
+.explore {
+    color: white;
+    background-color: #FF79DA;
+    height: 50px;
+    width: 200px;
+    margin: 45px 0 0 0;
+    border-radius: 25px 25px 25px 25px;
+}
+
+.howTo {
+    padding: 15px 0 0 0;
+}
+
+.howTo__guide {
+    height: 60px;
+    width: 400px;
+    border-radius: 20px;
+    margin: 10px;
+    box-shadow:
+}
+
+.howTo__number {
+    color: white;
+    background-color: #9356DC;
+    position: absolute;
+    margin: -10px 0 0 -20px;
+    height: 30px;
+    width: 30px;
+    border-radius: 25px 25px 25px 25px;
+    line-height: 10px;
+}
+
+.feature {
+    background-color: gray;
+    position: relative;
+    top: 50px;
+}
+
+.feature__restaurant {
+    width: 220px;
+    height: 180px;
+    border-radius: 25px 25px 25px 25px;
+}
+
+.feature__showcase {
+    width: 220px;
+    height: 140px;
+    border-radius: 25px 25px 0 0;
+}
+
+.feature__info {
+    width: 220px;
+    height: 60px;
+}
+
+footer {
+    color: white;
+    background-color: chocolate;
+}
