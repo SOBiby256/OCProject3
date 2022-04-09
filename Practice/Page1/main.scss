@@ -1,0 +1,60 @@
+$colors:(
+    purple: #9356DC,
+    pink: #FF79DA,
+    mint: #99E2D0
+) 
+
+#location {
+    background-color: gray;
+    height: 30px;
+}
+
+.booking {
+    background-color: gray;
+    height: 70px;
+      .explore {
+          color: white;
+          background-color: $pink;
+          height: 50px;
+          width: 130px;
+          border-radius: 25px 25px 25px 25px;
+      }
+}
+
+.howTo {
+    padding: 15px 0 0 0;
+      .howTo__guide {
+          height: 60px;
+          width: 220px;
+            .howTo__number {
+                color: white;
+                background-color: $purple;
+                height: 10px;
+                width: 10px;
+                border-radius: 25px 25px 25px 25px;
+            }
+      }
+}
+
+.feature {
+    background-color: gray;
+      .feature__restaurant {
+          width: 220px;
+          height: 180px;
+          border-radius: 25px 25px 25px 25px;
+            .feature__showcase {
+                width: 220px;
+                height: 140px;
+                border-radius: 25px 25px 0 0;
+                  .feature__info {
+                      width: 220px;
+                      height: 60px;
+                  }
+            }
+      }
+}
+
+footer {
+    color: white;
+    background-color: chocolate;
+}
