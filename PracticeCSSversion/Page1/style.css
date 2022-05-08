@@ -1,34 +1,92 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+}
+
+header img {
+margin: 0 0 0 80px;
+}
+
 #location {
     background-color: #c4c4c4;
     text-align: center;
-    height: 30px;
+    height: 50px;
+    width: 156%;
+    margin: 0 0 0 -7px;
+}
+
+#location h4 {
+  margin: 0 0 0 0;
+}
+
+.fa-map-marker-alt {
+  position: absolute;
+  margin: 0px 0 0 -80px;
 }
 
 .booking {
+    margin: -20px 0 0 -7px;
+    width: 156%;
     background-color: #ded9d9;
     text-align: center;
     height: 250px;
 }
 
+.booking__themenu {
+  margin: 100px 0 0 0;
+  overflow-wrap: break-word;
+}
+
 .explore {
+    position: absolute;
     color: white;
-    background-color: #FF79DA;
+    background-image: linear-gradient(to left, #9356DC, #FF79DA);
     height: 50px;
     width: 200px;
-    margin: 45px 0 0 0;
+    margin: 70px 0 0 -270px;
+    border: 0.1px solid transparent;
     border-radius: 25px 25px 25px 25px;
 }
 
+.explore:active {
+    transform: translateY(4px);
+}
+
 .howTo {
+    width: 100%;
     padding: 15px 0 0 0;
+    margin: 0 0 0 10px;
 }
 
 .howTo__guide {
     height: 60px;
-    width: 400px;
+    width: 140%;
     border-radius: 20px;
+    border: 2px solid transparent;
     margin: 10px;
-    box-shadow:
+    box-shadow: 0 4px 3px 3px #c4c4c4;
+}
+
+.howTo__guide:hover {
+  background-color: #c1a2e5d4;
+}
+
+.fa-mobile-alt {
+  position: absolute;
+  margin: 0 0 0 -50px;
+}
+
+.fa-list-ul {
+  position: absolute;
+  margin: 0 0 0 -52px;
+}
+
+.fa-store {
+  position: absolute;
+  margin: 0 0 0 -20px;
 }
 
 .howTo__number {
@@ -39,33 +97,123 @@
     height: 30px;
     width: 30px;
     border-radius: 25px 25px 25px 25px;
-    line-height: 10px;
+    line-height: 25px;
 }
 
 .feature {
-    background-color: gray;
+    width: 156%;
+    height: 1350px;
+    background-color: #d2cfcf;
     position: relative;
     top: 50px;
+    left: -7px
 }
 
 .feature__restaurant {
-    width: 220px;
-    height: 180px;
+    width: 70%;
+    height: 270px;
+    padding: 0px;
+    margin: 0 0 0 70px;
+    background-color: white;
     border-radius: 25px 25px 25px 25px;
 }
 
+.feature_restaurant {
+animation: fadeIn 5s;
+-webkit-animation: fadeIn 5s;
+-moz-animation: fadeIn 5s;
+-o-animation: fadeIn 5s;
+-ms-animation: fadeIn 5s;
+}
+
+.feature__restaurant figure {
+  width: 100%;
+}
+
+@keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
 .feature__showcase {
-    width: 220px;
-    height: 140px;
+    box-sizing: content-box;
+    width: 100%;
+    height: 210px;
+    margin: 0 0 0 -40px;
     border-radius: 25px 25px 0 0;
 }
 
-.feature__info {
-    width: 220px;
-    height: 60px;
+.feature__new {
+  position: relative;
+  border: 1px solid lightgreen;
+  background-color: lightgreen;
+  text-align: center;
+  font-weight: 700;
+  color: darkgreen;
+  width: 100px;
+  margin: -180px 0 0 285px;
 }
 
-footer {
-    color: white;
-    background-color: chocolate;
+.feature__info {
+  position: absolute;
+  margin: 167px 0 0 0;
 }
+
+.feature__location {
+}
+
+.fa-heart {
+  position: absolute;
+  margin: 175px 0 0 350px;
+}
+
+.fa-heart:hover {
+  color: #9356DC;
+}
+
+.fa-heart:active {
+  fill: #9356DC;
+}
+
+.smlogo {
+    height: 20px;
+    margin: 35px 0 0 25px;
+    filter: brightness(3000%)
+  }
+  
+  ul {
+    margin: -10px 0 0 -15px;
+  }
+  
+  li {
+    list-style-type: none;
+  }
+  
+  footer {
+    position: relative;
+    margin: 50px 0 0 -6px;
+    width: 155%;
+    height: 170px;
+    color: white;
+    background-color: #383835;
+  }
