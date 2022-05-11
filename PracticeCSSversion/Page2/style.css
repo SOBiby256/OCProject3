@@ -35,6 +35,13 @@
 
 .meal {
   text-decoration: underline 3px #99E2D0;
+  animation: slide 5s infinite;
+}
+
+@keyframes slide {
+  from {
+    
+  }
 }
 
 .meal__dish {
@@ -47,6 +54,50 @@
   margin: 15px 0 0 15px;
   line-height: 70px;
   line-width: 380px;
+  animation: selection 5s infinite;
+}
+
+@keyframes selection {
+  0% {
+    transform: translateY(-70px);
+    position: absolute;
+    mask-position: top;
+    opacity: .003;
+  }
+
+  10% {
+    transform: translateY(-60px);
+    position: absolute;
+    mask-position: top;
+    opacity: .003;
+  }
+
+  25% {
+    transform: translateY(-50px);
+    position: absolute;
+    mask-position: top;
+    opacity: .013;
+  }
+
+  50% {
+    transform: translateY(-40px);
+    position: absolute;
+    mask-position: top;
+    opacity: .023;
+  }
+
+  60% {
+    transform: translateY(-30px);
+    mask-position: top;
+    opacity: .033;
+  }
+
+  75% {
+    transform: translateY(-20px);
+    position: absolute;
+    mask-position: top;
+    opacity: .043;
+  }
 }
 
 .meal__name {
