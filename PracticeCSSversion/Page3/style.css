@@ -68,18 +68,40 @@
   height: 20px;
   width: 20px;
   position: relative;
-  margin: -80px 0 0 340px;
+  margin: -80px 0 0 270px;
   text-decoration: underline 3px white;
 }
 
 .meal__btn {
-  position: absolute;
-  top: 580px;
-  left: 320px;
+  position: relative;
+  margin: -20px 0 0 300px;
   height: 70px;
   width: 80px;
   background-color: #99E2D0;
   border-radius: 0 25px 25px 0;
+  animation: appear 5s infinite ;
+}
+
+@keyframes appear {
+  from {
+    transform: translateX();
+    width: 1px
+  }
+
+  to {
+    transform: translateX(-0px);
+  }
+}
+
+.fa-check-circle {
+  margin: 28px 0 0 30px;
+  animation: spin 5s infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(3600deg);
+  }
 }
 
 .order {
