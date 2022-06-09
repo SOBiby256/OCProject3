@@ -2,6 +2,12 @@
   box-sizing: border-box;
 }
 
+a, a:hover, a:focus, a:active {
+  pointer-events: none;
+  text-decoration: none;
+  color: inherit;
+}
+
 body {
   width: 100%;
 }
@@ -50,6 +56,7 @@ header img {
     margin: 70px 0 0 -270px;
     border: 0.1px solid transparent;
     border-radius: 25px 25px 25px 25px;
+    box-shadow: 1px 8px 12px .5px black;
 }
 
 .explore:active {
@@ -118,6 +125,7 @@ header img {
     background-color: white;
     border-radius: 25px 25px 25px 25px;
     animation: drop 4s;
+    text-decoration: none;
 }
 
 @keyframes drop {
@@ -180,7 +188,8 @@ header img {
 
 .fa-heart {
   position: absolute;
-  margin: -10px 0 0 340px;
+  font-size: 25px;
+  margin: -20px 0 0 350px;
 }
 
 .fa-heart:hover {
@@ -188,7 +197,7 @@ header img {
 }
 
 .fa-heart:active {
-  fill: #9356DC;
+  background-color: ;
 }
 
 .smlogo {
