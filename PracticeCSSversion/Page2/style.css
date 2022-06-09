@@ -1,3 +1,9 @@
+a, a:hover, a:focus, a:active {
+  pointer-events: none;
+  text-decoration: none;
+  color: inherit;
+}
+
 .fa-arrow-left {
   position: absolute;
   margin: 5px 0 0 20px;
@@ -44,7 +50,7 @@
   }
 }
 
-.meal__dish {
+.meal__dishCitrus {
   width: 380px;
   height: 70px;
   background-color: white;
@@ -54,7 +60,111 @@
   margin: 15px 0 0 15px;
   line-height: 70px;
   line-width: 380px;
-  animation: selection 5s infinite;
+  animation: selection 2.5s;
+}
+
+.meal__dishGma {
+  width: 380px;
+  height: 70px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 black;
+  transition: 0.3s;
+  border-radius: 25px 25px 25px 25px;
+  margin: 15px 0 0 15px;
+  line-height: 70px;
+  line-width: 380px;
+  animation: selection 2.5s;
+}
+
+.meal__dishOnion {
+  width: 380px;
+  height: 70px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 black;
+  transition: 0.3s;
+  border-radius: 25px 25px 25px 25px;
+  margin: 15px 0 0 15px;
+  line-height: 70px;
+  line-width: 380px;
+  animation: selection 2.5s;
+}
+
+.meal__dishSc {
+  width: 380px;
+  height: 70px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 black;
+  transition: 0.3s;
+  border-radius: 25px 25px 25px 25px;
+  margin: 15px 0 0 15px;
+  line-height: 70px;
+  line-width: 380px;
+  animation: selection 2.5s;
+}
+
+.meal__dishMar {
+  width: 380px;
+  height: 70px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 black;
+  transition: 0.3s;
+  border-radius: 25px 25px 25px 25px;
+  margin: 15px 0 0 15px;
+  line-height: 70px;
+  line-width: 380px;
+  animation: selection 2.5s;
+}
+
+.meal__dishHen {
+  width: 380px;
+  height: 70px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 black;
+  transition: 0.3s;
+  border-radius: 25px 25px 25px 25px;
+  margin: 15px 0 0 15px;
+  line-height: 70px;
+  line-width: 380px;
+  animation: selection 2.5s;
+}
+
+.meal__dishFlo {
+  width: 380px;
+  height: 70px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 black;
+  transition: 0.3s;
+  border-radius: 25px 25px 25px 25px;
+  margin: 15px 0 0 15px;
+  line-height: 70px;
+  line-width: 380px;
+  animation: selection 2.5s;
+}
+
+.meal__dishLava {
+  width: 380px;
+  height: 70px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 black;
+  transition: 0.3s;
+  border-radius: 25px 25px 25px 25px;
+  margin: 15px 0 0 15px;
+  line-height: 70px;
+  line-width: 380px;
+  animation: selection 2.5s;
+}
+
+.meal__dishNa {
+  width: 380px;
+  height: 70px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 black;
+  transition: 0.3s;
+  border-radius: 25px 25px 25px 25px;
+  margin: 15px 0 0 15px;
+  line-height: 70px;
+  line-width: 380px;
+  animation: selection 2.5s;
 }
 
 @keyframes selection {
@@ -62,41 +172,22 @@
     transform: translateY(-70px);
     position: absolute;
     mask-position: top;
-    opacity: .003;
+    opacity: .001;
   }
 
   10% {
-    transform: translateY(-60px);
-    position: absolute;
-    mask-position: top;
-    opacity: .003;
   }
 
   25% {
-    transform: translateY(-50px);
-    position: absolute;
-    mask-position: top;
-    opacity: .013;
   }
 
   50% {
-    transform: translateY(-40px);
-    position: absolute;
-    mask-position: top;
-    opacity: .023;
   }
 
   60% {
-    transform: translateY(-30px);
-    mask-position: top;
-    opacity: .033;
   }
 
   75% {
-    transform: translateY(-20px);
-    position: absolute;
-    mask-position: top;
-    opacity: .043;
   }
 }
 
@@ -135,7 +226,7 @@
 
 .order {
   color: white;
-  background-color: #FF79DA;
+  background-image: linear-gradient(to left, #9356DC, #FF79DA);
   height: 50px;
   width: 200px;
   margin: 45px 0 0 100px;
